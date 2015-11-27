@@ -14,8 +14,8 @@ links:
   - name:         Home
     url:          /
     icon:         fa-home
-  - name:         About
-    url:          /about/
+  - name:         Blog
+    url:          /blog/
     icon:         fa-user-secret
   - name:         Contact
     url:          /contact/
