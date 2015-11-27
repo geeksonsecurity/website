@@ -24,7 +24,6 @@ redcarpet:
   extensions:
     - smart
 
-disqus
 analytics :
   provider : google
   google :

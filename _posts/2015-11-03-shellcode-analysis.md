@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Shellcode analysis in OllyDbg
-comments: true
 category: malware-analysis
 tags: [malware-analysis, reverse-engineering, ollydbg]
+disqus: y
 ---
 
 In order to show how to analyze a shellcode in OllyDbg we first need to find a sample. For this post I choose the shellcode included in the [Hacking-Team flash zero-day](https://github.com/hackedteam/vector-exploit/blob/master/src/flash-0day-vitaly2/exp1/ShellWin32.as) which simply executes a `calc.exe` process. Maybe a small clarification, what here is meant with shellcode is just the resulting payload that run after an exploitation has occurred. Normally, the shellcode is delivered encoded in some way, but in our case it looks quite good already:
