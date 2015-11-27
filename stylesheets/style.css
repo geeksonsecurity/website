@@ -493,3 +493,6 @@ img.half {
     background-color: #0e1f31;
     color: #ffffff;
 }
+i[class^="fa"] {
+  margin-right: 5px;
+}
