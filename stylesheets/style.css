@@ -417,17 +417,7 @@ img {
   -webkit-overflow-scrolling: touch;
   background: #888380;
 }
-@media only screen and (min-width: 768px) {
-  .cd-tabs::after {
-    display: none;
-  }
-  .cd-tabs nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
-}
+
 @media only screen and (min-width: 960px) {
   .cd-tabs nav {
     position: relative;
@@ -518,24 +508,7 @@ img {
 .cd-tabs-navigation a[data-content='trash'].selected::before {
   background-position: -100px -20px;
 }
-@media only screen and (min-width: 768px) {
-  .cd-tabs-navigation {
-    /* move the nav to the left on medium sized devices */
-    width: 80px;
-    float: left;
-  }
-  .cd-tabs-navigation a {
-    height: 80px;
-    width: 80px;
-    padding-top: 46px;
-  }
-  .cd-tabs-navigation a.selected {
 
-  }
-  .cd-tabs-navigation a::before {
-    top: 22px;
-  }
-}
 @media only screen and (min-width: 960px) {
   .cd-tabs-navigation {
     /* tabbed on top on big devices */
@@ -580,14 +553,7 @@ img {
   color: #8493bf;
   margin-bottom: 2em;
 }
-@media only screen and (min-width: 768px) {
-  .cd-tabs-content {
-    min-height: 480px;
-  }
-  .cd-tabs-content li {
-    padding: 2em 2em 2em 7em;
-  }
-}
+
 @media only screen and (min-width: 960px) {
   .cd-tabs-content {
     min-height: 0;
