@@ -13,10 +13,13 @@ redcarpet:
 links:
   - name:         Home
     url:          /
+    icon:         fa-home
   - name:         About
     url:          /about/
+    icon:         fa-user-secret
   - name:         Contact
     url:          /contact/
+    icon:         fa-envelope-o
 
 
 analytics :
