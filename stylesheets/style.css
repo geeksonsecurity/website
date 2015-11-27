@@ -474,6 +474,9 @@ img.half {
 .cd-tabs-navigation li {
     float: left;
 }
+.cd-tabs-navigation li:first-child a.selected {
+    border-left: none;
+}
 .cd-tabs-navigation a {
     position: relative;
     display: block;
@@ -487,11 +490,13 @@ img.half {
     -moz-osx-font-smoothing: grayscale;
     font-weight: 600;
     color: #ffffff;
-    padding: 0 2em 0 2em;
+    padding: 0 1.8em 0 1.8em;
 }
 .cd-tabs-navigation a.selected {
     background-color: #0e1f31;
     color: #ffffff;
+    border-right: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
 }
 i[class^="fa"] {
   margin-right: 5px;
