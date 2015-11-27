@@ -24,3 +24,8 @@ markdown:         redcarpet
 redcarpet:
   extensions:
     - smart
+
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-66639465-2'
