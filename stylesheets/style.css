@@ -429,6 +429,7 @@ img {
 .cd-tabs-navigation {
   margin: 0;
   padding: 0;
+  width: auto;
 }
 .cd-tabs-navigation:after {
   content: "";
@@ -442,15 +443,16 @@ img {
   position: relative;
   display: block;
   height: 60px;
-  width: 60px;
-  text-align: center;
-  font-size: 12px;
-  font-size: 0.75rem;
+  width: auto;
+  text-align: left;
+  font-size: 14px;
+  font-size: 0.875rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
   color: #ffffff;
-  padding-top: 34px;
+  padding: 0 2em 0 2em;
+  line-height: 60px;
 }
 .no-touch .cd-tabs-navigation a:hover {
   color: #29324e;
@@ -460,78 +462,13 @@ img {
   background-color: #0e1f31 !important;
   color: #ffffff;
 }
-.cd-tabs-navigation a::before {
-  /* icons */
-  position: absolute;
-  top: 12px;
-  left: 50%;
 
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  background-image: url("../images/vicons.svg");
-  background-repeat: no-repeat;
-}
-.cd-tabs-navigation a[data-content='inbox']::before {
-  background-position: 0 0;
-}
-.cd-tabs-navigation a[data-content='new']::before {
-  background-position: -20px 0;
-}
-.cd-tabs-navigation a[data-content='gallery']::before {
-  background-position: -40px 0;
-}
-.cd-tabs-navigation a[data-content='store']::before {
-  background-position: -60px 0;
-}
-.cd-tabs-navigation a[data-content='settings']::before {
-  background-position: -80px 0;
-}
-.cd-tabs-navigation a[data-content='trash']::before {
-  background-position: -100px 0;
-}
-.cd-tabs-navigation a[data-content='inbox'].selected::before {
-  background-position: 0 -20px;
-}
-.cd-tabs-navigation a[data-content='new'].selected::before {
-  background-position: -20px -20px;
-}
-.cd-tabs-navigation a[data-content='gallery'].selected::before {
-  background-position: -40px -20px;
-}
-.cd-tabs-navigation a[data-content='store'].selected::before {
-  background-position: -60px -20px;
-}
-.cd-tabs-navigation a[data-content='settings'].selected::before {
-  background-position: -80px -20px;
-}
-.cd-tabs-navigation a[data-content='trash'].selected::before {
-  background-position: -100px -20px;
-}
-
-@media only screen and (min-width: 960px) {
-  .cd-tabs-navigation {
-    /* tabbed on top on big devices */
-    width: auto;
-  }
-  .cd-tabs-navigation a {
-    height: 60px;
-    line-height: 60px;
-    width: auto;
-    text-align: left;
-    font-size: 14px;
-    font-size: 0.875rem;
-    padding: 0 2em 0 2em;
-  }
-  .cd-tabs-navigation a.selected {
-  }
   .cd-tabs-navigation a::before {
     top: 50%;
     margin-top: -10px;
     margin-left: 0;
     left: 38px;
   }
-}
 
 .cd-tabs-content {
   background: #ffffff;
