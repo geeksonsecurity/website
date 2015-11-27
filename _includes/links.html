@@ -1,0 +1,16 @@
+<div class="cd-tabs">
+  {% assign url = page.url|remove:'index.html' %}
+  	<nav>
+		<ul class="cd-tabs-navigation">
+
+      {% for link in site.links %}
+        <li>
+            <a class="{% if url == link.url %}selected {% endif %}main" href="{{link.url}}">
+              <i class="fa {{link.icon}}"></i>{{link.name}}
+            </a>
+        </li>
+      {% endfor %}
+		</ul>
+	</nav>
+
+</div>
