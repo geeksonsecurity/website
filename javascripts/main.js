@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 	var tabs = $('.cd-tabs');
-	
+
 	tabs.each(function(){
 		var tab = $(this),
 			tabItems = tab.find('ul.cd-tabs-navigation'),
@@ -14,24 +14,25 @@ jQuery(document).ready(function($){
 				var selectedTab = selectedItem.data('content'),
 					selectedContent = tabContentWrapper.find('li[data-content="'+selectedTab+'"]'),
 					slectedContentHeight = selectedContent.innerHeight();
-				
+
 				tabItems.find('a.selected').removeClass('selected');
 				selectedItem.addClass('selected');
 				selectedContent.addClass('selected').siblings('li').removeClass('selected');
-				//animate tabContentWrapper height when content changes 
+				//animate tabContentWrapper height when content changes
 				tabContentWrapper.animate({
 					'height': slectedContentHeight
 				}, 200);
 			}
+			return false;
 		});
 
 		//hide the .cd-tabs::after element when tabbed navigation has scrolled to the end (mobile version)
 		checkScrolling(tabNavigation);
-		tabNavigation.on('scroll', function(){ 
+		tabNavigation.on('scroll', function(){
 			checkScrolling($(this));
 		});
 	});
-	
+
 	$(window).on('resize', function(){
 		tabs.each(function(){
 			var tab = $(this);

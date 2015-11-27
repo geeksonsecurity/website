@@ -1,22 +1,8 @@
-title:            GEEKS ON SECURITY BLOG
+title:            GeeksOnSecurity Website
 description:      Because security matters
-url:              # Site url.
-signoff:          # Your name.
+url:              http://www.geeksonsecurity.com
+signoff:          GoS
 disqus_shortname: geeksonsecurity
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-
-links:
-  - name:         About
-    url:          /about
-  - name:         Blog
-    url:          http://blog.geeksonsecurity.com
-    external:     true
-  - name:         Email
-    url:          mailto:hello@muan.co
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/muan
-    external:     true
 highlighter:      pygments
 permalink:        pretty
 markdown:         redcarpet
