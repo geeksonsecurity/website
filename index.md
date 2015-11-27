@@ -2,6 +2,8 @@
 layout: page
 ---
 
+# Home
+
 We provide a wide range of services related to IT Security:
 
 * Penetration testing
