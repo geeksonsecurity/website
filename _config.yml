@@ -22,7 +22,4 @@ links:
     icon:         fa-envelope-o
 
 
-analytics :
-  provider : google
-  google :
-      tracking_id : 'UA-66639465-2'
+google_analytics: UA-66639465-2
