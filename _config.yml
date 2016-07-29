@@ -3,7 +3,7 @@ description:      Because security matters
 url:              http://www.geeksonsecurity.com
 signoff:          GoS
 disqus_shortname: geeksonsecurity
-highlighter:      pygments
+highlighter:      rouge
 permalink:        pretty
 markdown:         redcarpet
 redcarpet:
