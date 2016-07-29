@@ -466,6 +466,11 @@ img.half {
     -webkit-overflow-scrolling: touch;
     background: #888380;
 }
+
+nav ul {
+  list-style-type: none;
+}
+
 .cd-tabs-navigation {
     margin: 0;
     padding: 0;
