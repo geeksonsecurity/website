@@ -1197,11 +1197,11 @@ input[type="text"] {
 	font-weight:400;
 	line-height:20px;
 	font-size: 12px;
-	color: #333;
+	color: #ffffff;
 	font-style:normal;
 	border-radius: 0;	
 	background: none;
-	border: 2px solid #242424;
+	border: 2px solid #ffffff;
 	box-shadow: none;
 	transition: border-color 0.3s ease-in-out; 
 	-webkit-transition: border-color 0.3s ease-in-out;
@@ -1233,8 +1233,8 @@ input[type="tel"]:focus,
 input[type="color"]:focus {
 	outline: 0;
 	box-shadow: none;
-	color:#666;
-	border-color:#ccc;
+	color:#e03a40;
+	border-color:#e03a40;
 }
 
 
@@ -1243,7 +1243,7 @@ input[type="color"]:focus {
 	cursor:pointer;
 	margin: 0 7px 10px 0;
 	padding:13px 30px;
-	border: 2px solid #242424;
+	border: 2px solid #ffffff;
 	border-radius: 0;
 	box-shadow: 0;
 	text-shadow:none;
@@ -1253,14 +1253,14 @@ input[type="color"]:focus {
 	font-weight:900;
 	line-height:20px;
 	font-size:13px;
-	color:#333;
+	color:#ffffff;
 	background: none; 
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 }
-.contact_btn.active, .contact_btn:hover {background: none; color:#fff; border-color:#ccc;}
+.contact_btn.active, .contact_btn:hover {background: none; color:#e03a40; border-color:#e03a40;}
 
-.notification_error {color:#30a67c;}
+.notification_error {color:#e03a40;}
 
 
 
