@@ -1084,14 +1084,14 @@ footer {
 	opacity:0;
 	width:100%;
 	padding:60px 0 10px;
-	color:#999;
-	background-color:#1c1c1c;
+	color:#ffffff;
+	background-color:#0e1f31;
 	transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
 	border-bottom: 10px solid #e03a40;
 }
-footer h4 {color:#fff;}
+footer h4 {color:#ffffff;}
 
 
 
