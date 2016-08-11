@@ -296,7 +296,7 @@ header {
 }
 .navmenu li:hover a,
 .navmenu li.active a {
-	color:#333;
+	color:#e03a40;
 }
 
 /* Sub menu */
