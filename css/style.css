@@ -1009,16 +1009,16 @@ ul.project_info li span {color:#979797;}
 	display:block;
 	line-height:17px;
 	font-size:14px;
-	color:#ccc;
+	color:#ffffff;
 }
-.post_item_content_small a.title:hover {color:#666;}
+.post_item_content_small a.title:hover {color:#e03a40;}
 .post_item_inf_small li {
 	display:inline-block;
 	padding-top:4px;
 	padding-right:10px;
 	line-height:17px;
 	font-size:11px;
-	color:#e03a40;
+	color:#ffffff;
 }
 
 
