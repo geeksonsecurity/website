@@ -1,0 +1,13 @@
+.single_blog_post_content ul {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.single_blog_post_content li {
+    list-style: initial;
+}
+
+.blog-post-preview-image {
+    max-height: 334px;
+    min-height: 334px;
+}

@@ -1,0 +1,42 @@
+---
+layout: blog_post
+---
+
+<section id="blog">
+
+    <!-- CONTAINER -->
+    <div class="container">
+
+        <!-- ROW -->
+        <div class="row">
+
+            <!-- BLOG BLOCK -->
+            <div class="blog_block col-lg-12 col-md-12 padbot50">
+
+                <!-- SINGLE BLOG POST -->
+                <div class="single_blog_post clearfix" data-animated="fadeInUp">
+                    <div class="single_blog_post_descr">
+                        <div class="single_blog_post_date">{{ page.date | date: "%b %-d, %Y" }}</div>
+                        <div class="single_blog_post_title">{{ page.title }}</div>
+                        <ul class="single_blog_post_info">
+                            <li><b>{{ page.author }}</b></li>
+                            <li>{{ page.tags | join: ', ' }}</li>
+                        </ul>
+                    </div>
+
+                    <div class="single_blog_post_content">
+                        {{ content }}
+                    </div>
+
+                </div>
+
+                <hr>
+                {% if page.disqus == 'y' %}
+                  {% include disqus.html %}
+                {% endif %}
+
+            </div><!-- //BLOG BLOCK -->
+
+        </div><!-- //ROW -->
+    </div><!-- //CONTAINER -->
+</section><!-- //BLOG -->

@@ -30,7 +30,7 @@ body {
 #page {overflow-x:hidden; position:relative; z-index:5;}
 
 .preloader_hide {opacity:0;}
-#preloader {position:fixed; left:50%; top:50%; width:137px; height:70px; margin:-35px 0 0 -68px; display:block;}
+#preloader {position:fixed; left:50%; top:50%; width:32px; height:32px; margin:-16px 0 0 -16px; display:block;}
 
 section {background-color:#fff;}
 
@@ -208,7 +208,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 /* __________ breadcrumb __________ */
 .breadcrumbs_block {
 	padding:81px 0;
-	background-image:url(../images/dark_bg.jpg);
+	background-image:url(../images/clean_code_bg.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -459,7 +459,7 @@ header {
 /* __________ Clean Code __________ */
 .cleancode_block {
 	padding:96px 0 78px;
-	background-image:url(../images/dark_bg.jpg);
+	background-image:url(../images/clean_code_bg.jpg);
 	background-size:cover;
 	background-position:0 0;
 	background-attachment:fixed !important;
