@@ -17,6 +17,12 @@ links:
   - name:         Blog
     url:          /blog/
     icon:         fa-user-secret
+  - name:         Vulnerable App List
+    url:          https://github.com/geeksonsecurity/vuln-web-apps
+    icon:         fa-list-ol   
+  - name:         Overlay Protector
+    url:          http://overlayprotector.geeksonsecurity.com/
+    icon:         fa-mobile
   - name:         Contact
     url:          /contact/
     icon:         fa-envelope-o
