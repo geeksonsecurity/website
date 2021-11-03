@@ -26,6 +26,9 @@ links:
   - name:         Vulnerable App List
     url:          https://github.com/geeksonsecurity/vuln-web-apps
     icon:         fa-list-ol   
+  - name:         IDA Tips
+    url:          https://ida.geeksonsecurity.com/
+    icon:         fa-question-circle
   - name:         Contact
     url:          /contact/
     icon:         fa-envelope-o
