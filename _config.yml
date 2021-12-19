@@ -5,10 +5,7 @@ signoff:          GoS
 disqus_shortname: geeksonsecurity
 highlighter:      rouge
 permalink:        pretty
-markdown:         redcarpet
-redcarpet:
-  extensions:
-    - smart
+markdown:         kramdown
 
 links:
   - name:         Home

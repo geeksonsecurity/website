@@ -416,11 +416,13 @@ pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 code {
     font-size: 13px;
     color: #ffffff;
     background: #0e1f31;
-    padding: 2px 4px 3px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 5px 5px 5px;
     border-radius: 2px;
     line-height: 1.3em;
     display: inline-block;
@@ -429,6 +431,7 @@ code {
     *display: inline;
     *vertical-align: auto;
 }
+
 img {
     max-width: 100%;
 }
